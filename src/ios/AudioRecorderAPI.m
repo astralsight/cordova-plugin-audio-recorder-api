@@ -28,7 +28,7 @@
 
     NSMutableDictionary *recordSettings = [[NSMutableDictionary alloc] init];
     [recordSettings setObject:[NSNumber numberWithInt: kAudioFormatMPEG4AAC] forKey: AVFormatIDKey];
-    [recordSettings setObject:[NSNumber numberWithFloat:8000.0] forKey: AVSampleRateKey];
+    [recordSettings setObject:[NSNumber numberWithFloat:22050.0] forKey: AVSampleRateKey];
     [recordSettings setObject:[NSNumber numberWithInt:1] forKey:AVNumberOfChannelsKey];
     [recordSettings setObject:[NSNumber numberWithInt:12000] forKey:AVEncoderBitRateKey];
     [recordSettings setObject:[NSNumber numberWithInt:8] forKey:AVLinearPCMBitDepthKey];
